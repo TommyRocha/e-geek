@@ -3,19 +3,62 @@
   <head>
     <!-- Meta tag para o capturar carcteres especiasis -->
     <meta charset="utf-8">
+    <!--Meta tag para ser compatível com navegadores antigos-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <!--Meta tag para habilitar responsividade-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS on line -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/66d680847f.js" crossorigin="anonymous"></script>
 
     <title>e-geek</title>
   </head>
-  <body>
-    <h1>Olá, mundo!</h1>
+  <body>  
+    <header>
+           
+        <!--inicio do menu superior-->
+        <div class="container">
+             <!--inicio do formulario de pesquisa-->
+             <div class="col-xs-6">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <button class="fa fa-search" style="background:transparent;border:none"></button>
+                </span>
+                <input type="text" class="form-control" placeholder="Buscar">
+              </div>
+            </div>
+            <!--inicio do menu-->
+         
+             <!--botao do responsivo-->
+             <div class="navbar-header"> 
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
+                 <i class="fas fa-align-justify"></i>
+               </button>
+             </div>               
+              <nav id="links-menu" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Camisetas</a></li>
+                  <li><a href="#">Canecas</a></li>
+                  <li><a href="#">Jogos</a></li>
+                  <li><a href="#">Consoles</a></li>
+                  <li><a href="#">Pelucias</a></li>
+                </ul>
+              </nav>
+            
+          </div>
+    </header> 
+    
+    <!--Todo o conteúdo principal do site está a partir daqui-->
+    <main>
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+
+    </main>  
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
