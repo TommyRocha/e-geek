@@ -6,8 +6,8 @@
     height: 38px;
     border: none;
     outline: none;
-    color: rgb(0, 0, 0);
-    background: #00afef;
+    color: rgb(255, 255, 255);
+    background: #e6550d;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -33,7 +33,7 @@
 }
 
 #botao-egeek:active {
-    color: #00afef
+    color: #fafafa
 }
 
 #botao-egeek:active:after {
@@ -42,7 +42,7 @@
 }
 
 #botao-egeek:hover:before {
-    opacity: 1;
+    opacity: 6;
 }
 
 #botao-egeek:after {
@@ -51,7 +51,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #00afef;
+    background: #e6550d;
     left: 0;
     top: 0;
     border-radius: 5px;
